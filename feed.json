@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Test",
+    "title": "Le site de Florian",
     "description": "",
     "home_page_url": "https://mrflos.github.io/publii",
     "feed_url": "https://mrflos.github.io/publii/feed.json",
@@ -9,6 +9,37 @@
         "name": "mrflos"
     },
     "items": [
+        {
+            "id": "https://mrflos.github.io/publii/test-blocks.html",
+            "url": "https://mrflos.github.io/publii/test-blocks.html",
+            "title": "test blocks",
+            "summary": " titre fdgfdg bjhg jhg mrflos jyuyuy yuyuy uyuy u ",
+            "content_html": "\n    <h2 id=\"titre\">\n      titre\n    </h2>\n\n    <figure class=\"blockquote\">\n      <blockquote>fdgfdg bjhg jhg</blockquote>\n      <figcaption>mrflos</figcaption>\n    </figure>\n\n  <div class=\"post__toc\">\n    <h3>yt6y6t</h3>\n    <ul>\n      <li><a href=\"#titre\">titre</a></li>\n    </ul>\n  </div>\n  \n\n  <p>\n    jyuyuy\n  </p>\n\n  <p>\n    yuyuy\n  </p>\n\n  <p>\n    uyuy\n  </p>\n\n  <p>\n    u\n  </p>",
+            "image": "https://mrflos.github.io/publii/media/posts/3/eleanapolice.png",
+            "author": {
+                "name": "mrflos"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-03-07T20:20:50+03:00",
+            "date_modified": "2021-03-07T20:23:33+03:00"
+        },
+        {
+            "id": "https://mrflos.github.io/publii/test-en-markdown.html",
+            "url": "https://mrflos.github.io/publii/test-en-markdown.html",
+            "title": "Test en Markdown",
+            "summary": "This is a sample post intended to test the followings: The following HTML &lt;h1&gt;—&lt;h6&gt; elements represent six levels of section headings. &lt;h1&gt; is the highest section level while &lt;h6&gt; is the lowest. Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse&hellip;",
+            "content_html": "<p>This is a sample post intended to test the followings:</p>\n<ul>\n<li>A different post author.</li>\n<li>Table of contents.</li>\n<li>Markdown content rendering.</li>\n<li>Emoji rendering.</li>\n</ul>\n<hr>\n<h1 id=\"markdown-syntax-rendering\">Markdown Syntax Rendering</h1>\n<h2 id=\"headings\">Headings</h2>\n<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>\n<h1 id=\"h1\">H1</h1>\n<h2 id=\"h2\">H2</h2>\n<h3 id=\"h3\">H3</h3>\n<h4 id=\"h4\">H4</h4>\n<h5 id=\"h5\">H5</h5>\n<h6 id=\"h6\">H6</h6>\n<h2 id=\"paragraph\">Paragraph</h2>\n<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>\n<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>\n<h2 id=\"blockquotes\">Blockquotes</h2>\n<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>\n<h4 id=\"blockquote-without-attribution\">Blockquote without attribution</h4>\n<blockquote>\n<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.\n<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>\n</blockquote>\n<h4 id=\"blockquote-with-attribution\">Blockquote with attribution</h4>\n<blockquote>\n<p>Don’t communicate by sharing memory, share memory by communicating.</p>\n— <cite>Rob Pike[^1]</cite></p>\n</blockquote>\n<p>[^1]: The above quote is excerpted from Rob Pike’s <a href=\"https://www.youtube.com/watch?v=PAAkCSZUG1c\">talk</a> during Gopherfest, November 18, 2015.</p>\n<h2 id=\"tables\">Tables</h2>\n<p>Tables aren’t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Age</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Bob</td>\n<td>27</td>\n</tr>\n<tr>\n<td>Alice</td>\n<td>23</td>\n</tr>\n</tbody></table>\n<h4 id=\"inline-markdown-within-tables\">Inline Markdown within tables</h4>\n<table>\n<thead>\n<tr>\n<th>Inline&nbsp;&nbsp;&nbsp;</th>\n<th>Markdown&nbsp;&nbsp;&nbsp;</th>\n<th>In&nbsp;&nbsp;&nbsp;</th>\n<th>Table</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><em>italics</em></td>\n<td><strong>bold</strong></td>\n<td><del>strikethrough</del>&nbsp;&nbsp;&nbsp;</td>\n<td><code>code</code></td>\n</tr>\n</tbody></table>\n<h2 id=\"code-blocks\">Code Blocks</h2>\n<h4 id=\"code-block-with-backticks\">Code block with backticks</h4>\n<pre><code>html\n&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Example HTML5 Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;Test&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><h4 id=\"code-block-indented-with-four-spaces\">Code block indented with four spaces</h4>\n<pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n&lt;head&gt;\n  &lt;meta charset=&quot;UTF-8&quot;&gt;\n  &lt;title&gt;Example HTML5 Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;Test&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code></pre><h4 id=\"code-block-with-hugos-internal-highlight-shortcode\">Code block with Hugo’s internal highlight shortcode</h4>\n<p>{{&lt; highlight html &gt;}}\n<!DOCTYPE html></p>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Example HTML5 Document</title>\n</head>\n<body>\n  <p>Test</p>\n</body>\n</html>\n{{< /highlight >}}\n\n<h2 id=\"list-types\">List Types</h2>\n<h4 id=\"ordered-list\">Ordered List</h4>\n<ol>\n<li>First item</li>\n<li>Second item</li>\n<li>Third item</li>\n</ol>\n<h4 id=\"unordered-list\">Unordered List</h4>\n<ul>\n<li>List item</li>\n<li>Another item</li>\n<li>And another item</li>\n</ul>\n<h4 id=\"nested-list\">Nested list</h4>\n<ul>\n<li>Fruit<ul>\n<li>Apple</li>\n<li>Orange</li>\n<li>Banana</li>\n</ul>\n</li>\n<li>Dairy<ul>\n<li>Milk</li>\n<li>Cheese</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"other-elements--abbr-sub-sup-kbd-mark\">Other Elements — abbr, sub, sup, kbd, mark</h2>\n<p><abbr title=\"Graphics Interchange Format\">GIF</abbr> is a bitmap image format.</p>\n<p>H<sub>2</sub>O</p>\n<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>\n<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>\n<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>\n<h2 id=\"emoji-rendering\">Emoji Rendering</h2>\n<p><span class=\"nowrap\"><span class=\"emojify\">🙈</span> <code>:see_no_evil:</code></span>  <span class=\"nowrap\"><span class=\"emojify\">🙉</span> <code>:hear_no_evil:</code></span>  <span class=\"nowrap\"><span class=\"emojify\">🙊</span> <code>:speak_no_evil:</code></span></p>\n<br>",
+            "image": "https://mrflos.github.io/publii/media/posts/2/papa.png",
+            "author": {
+                "name": "mrflos"
+            },
+            "tags": [
+                   "markdown"
+            ],
+            "date_published": "2021-03-07T20:19:32+03:00",
+            "date_modified": "2021-03-07T20:22:45+03:00"
+        },
         {
             "id": "https://mrflos.github.io/publii/preums.html",
             "url": "https://mrflos.github.io/publii/preums.html",
