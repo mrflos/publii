@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://mrflos.github.io/publii/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://mrflos.github.io/publii/</loc>
+</url>
+<url>
+<loc>https://mrflos.github.io/publii/preums.html</loc>
+<lastmod>2021-03-07T17:40:07+03:00</lastmod>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/chihiro030.jpg</image:loc>
+<image:title><![CDATA[manger]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/gallery/chihiro007-thumbnail.jpg</image:loc>
+<image:title><![CDATA[bar]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/gallery/chihiro014-thumbnail.jpg</image:loc>
+<image:title><![CDATA[bonhommes]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/gallery/karigurashi001-thumbnail.jpg</image:loc>
+<image:title><![CDATA[nature]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/gallery/karigurashi007-thumbnail.jpg</image:loc>
+<image:title><![CDATA[jolie]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://mrflos.github.io/publii/media/posts/1/gallery/chihiro030-thumbnail.jpg</image:loc>
+<image:title><![CDATA[manger]]></image:title>
+</image:image>
+</url>
+</urlset>
